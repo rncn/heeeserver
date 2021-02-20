@@ -1,3 +1,4 @@
 .vscode
 *.pem
 go.sum
+__debug_bin

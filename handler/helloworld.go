@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-//HelloWorldHandler is Show "unko"
+//HelloWorldHandler is Show "hello"
 func HelloWorldHandler(writer http.ResponseWriter, request *http.Request) {
-	io.WriteString(writer, "unko")
+	io.WriteString(writer, "hello")
 }
